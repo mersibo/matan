@@ -3,18 +3,18 @@
 ## Билет 1
 ---
 
-1. $arcsin(x^2 - 1)$ = $\frac{1}{\sqrt{1-(x^2-1)}} * 2x$ = $\frac{2x}{\sqrt{2x^2-x^4}}$
+1. $arcsin(x^2 - 1)$ = $\dfrac{1}{\sqrt{1-(x^2-1)}} * 2x$ = $\dfrac{2x}{\sqrt{2x^2-x^4}}$
 
-2. $\lim\limits_{x \to \infty}{(1 - \frac{5}{x - 3})^{2x-1}}$ = $\lim\limits_{x \to \infty}{(1 + \frac{-5}{x - 3})^{{\frac{x - 3}{-5}} * \frac{-5}{x - 3} * {(2x-1)}}}$ = $\lim\limits_{x \to \infty}{e^{\frac{-10x + 5}{x - 3}}}$ = $e^{-10}$ = $\frac{1}{e^{10}}$
+2. $\lim\limits_{x \to \infty}{(1 - \dfrac{5}{x - 3})^{2x-1}}$ = $\lim\limits_{x \to \infty}{(1 + \dfrac{-5}{x - 3})^{{\dfrac{x - 3}{-5}} * \dfrac{-5}{x - 3} * {(2x-1)}}}$ = $\lim\limits_{x \to \infty}{e^{\dfrac{-10x + 5}{x - 3}}}$ = $e^{-10}$ = $\dfrac{1}{e^{10}}$
 
 3. Что такое непрерывная и диффренцируемая функция:
     1. В точке:
             
-        >Пусть функция $f$ определена в некоторой окрестности точки а. Если существует конечный предел $f′(a) = \lim\limits_{t \to 0}{\frac{f(a+t) - f(a)}{t}} = \lim\limits_{x \to a}{\frac{f(x) - f(a)}{x - a}} \in R$, то он называется производной функции $f$ в точке a, а про функцию $f$ говорят, что она дифференцируема в точке а
+        >Пусть функция $f$ определена в некоторой окрестности точки а. Если существует конечный предел $f′(a) = \lim\limits_{t \to 0}{\dfrac{f(a+t) - f(a)}{t}} = \lim\limits_{x \to a}{\dfrac{f(x) - f(a)}{x - a}} \in R$, то он называется производной функции $f$ в точке a, а про функцию $f$ говорят, что она дифференцируема в точке а
     
     2. На множестве:
 
-        >Функция $f$ называется дифференцируемой на множестве $E$, если она определена вокрестности каждой точки этого множества и дифференцируема в каждой точке это-го множества: $\forall a \in E$  ㅤ$\exists f'(a) = \lim\limits_{t \to 0}{\frac{f(a+t) - f(a)}{t}} \in R$
+        >Функция $f$ называется дифференцируемой на множестве $E$, если она определена вокрестности каждой точки этого множества и дифференцируема в каждой точке это-го множества: $\forall a \in E$  ㅤ$\exists f'(a) = \lim\limits_{t \to 0}{\dfrac{f(a+t) - f(a)}{t}} \in R$
 
 4. Теорема Ролля:
 
@@ -49,16 +49,16 @@
 ## Билет 2
 ---
 
-1. $\left(\frac{\ln\left(x^{2}-3\,x+1\right)}{arctg\left(3\,x\right)}\right)' = \left(\frac{(\ln(x^2-3x+1))' * arctg{3x} - (arctg{3x})'* \ln(x^2-3x+1)}{arctg^2{3x}}\right) = \left(\frac{\frac{(arctg{3x})}{x^2-3x+1} *(x^2-3x+1)' -\frac{\ln(x^2-3x+1)}{9x^2 + 1} * (3x)'}{arctg^2{3x}}\right) = \left(\frac{2x-3}{(x^2-3x+1)arctg{3x}} - \frac{3\ln(x^2-3x+1)}{(9x^2)arctg^2{3x}}\right)$
+1. $\left(\dfrac{\ln\left(x^{2}-3\,x+1\right)}{arctg\left(3\,x\right)}\right)' = \left(\dfrac{(\ln(x^2-3x+1))' * arctg{3x} - (arctg{3x})'* \ln(x^2-3x+1)}{arctg^2{3x}}\right) = \left(\dfrac{\frac{(arctg{3x})}{x^2-3x+1} *(x^2-3x+1)' -\frac{\ln(x^2-3x+1)}{9x^2 + 1} * (3x)'}{arctg^2{3x}}\right) = \left(\dfrac{2x-3}{(x^2-3x+1)arctg{3x}} - \dfrac{3\ln(x^2-3x+1)}{(9x^2)arctg^2{3x}}\right)$
 
-2. $\lim\limits_{x \to 0}{e^{1+\frac{1}{5x+3}}} = e^1=e$
+2. $\lim\limits_{x \to 0}{e^{1+\dfrac{1}{5x+3}}} = e^1=e$
 
 3. Теорема Лагранжа:
     >Пусть $f$ определена на отрезке $[a;b]$, причем:
     >+ $f$ непрерывна на отрезке $[a;b]$
     >+ $f$ дифференцируема на интервале $(a;b)$
     >
-    >Тогда существует такая точка $\epsilon \in (a;b)$, что $f'(\epsilon) = \frac{f(b)-f(a)}{b-a}$
+    >Тогда существует такая точка $\epsilon \in (a;b)$, что $f'(\epsilon) = \dfrac{f(b)-f(a)}{b-a}$
 
 4. Теорема Коши:
     >Пусть $f$ и $g$ определены на отрезке $[a;b]$, причем:
@@ -66,11 +66,11 @@
     >+ $f$ и $g$ дифференцируемы на интервале $(a;b)$
     >+ $g(x) \neq 0$ при $x \in (a; b)$
     >
-    >Тогда существует такая точка $\epsilon \in (a;b)$, что $\frac{f'(\epsilon)}{g'(\epsilon)} = \frac{f(b)-f(a)}{g(b)-g(a)}$
+    >Тогда существует такая точка $\epsilon \in (a;b)$, что $\dfrac{f'(\epsilon)}{g'(\epsilon)} = \dfrac{f(b)-f(a)}{g(b)-g(a)}$
 
     >### *Доказательство:*
     >
-    >$f(a) \neq f(b)$ по 3 пункту. Тогда возьмем вспомогательную функцию: $F(x) = f(x)-f(a)-\frac{f(b)-f(a)}{g(b)-g(a)}(g(x)-g(a))$
+    >$f(a) \neq f(b)$ по 3 пункту. Тогда возьмем вспомогательную функцию: $F(x) = f(x)-f(a)-\dfrac{f(b)-f(a)}{g(b)-g(a)}(g(x)-g(a))$
     >
     >$F(x)$ удовлетворяет всем условиям теоремы Ролля:
     >+ $F(x)$ непрерывна на отрезке $[a;b]$
@@ -79,7 +79,7 @@
     >
     >Значит по теореме Ролля найдется такая точка $\epsilon \in (a;b)$, что $F'(\epsilon) = 0$
     >
-    >Тогда: $0 = F'(\epsilon) = f'(\epsilon)-0-\frac{f(b)-f(a)}{g(b)-g(a)}*g'(\epsilon) => \frac{f'(\epsilon)}{g'(\epsilon)} = \frac{f(b)-f(a)}{g(b)-g(a)}$
+    >Тогда: $0 = F'(\epsilon) = f'(\epsilon)-0-\dfrac{f(b)-f(a)}{g(b)-g(a)}*g'(\epsilon) => \dfrac{f'(\epsilon)}{g'(\epsilon)} = \dfrac{f(b)-f(a)}{g(b)-g(a)}$
 
 
 ## Билет 3
@@ -87,16 +87,16 @@
 
 1. $arctg^{-2}{2x} = \left(\dfrac{1}{arctg^2{2x}}\right) = -\dfrac{(arctg^2{2x})'}{arctg^4{2x}} = -\dfrac{2 arctg{2x}(arctg{2x})'}{arctg^4{2x}} = -\dfrac{2 arctg{2x} * \frac{1}{4x^2+1}*(2x)'}{arctg^4{2x}} = -\dfrac{\frac{4arctg{2x}}{4x^2+1}}{arctg^4{2x}} = -\dfrac{4}{\left(4\,{x}^{2}+1\right)\,arctg^{3}\left(2\,x\right)}$
 
-2. $\lim\limits_{x \to 0}{\frac{arctg{5x}-\arcsin{4x}}{e^{3x}-1}} = \lim\limits_{x \to 0}{\frac{5x-4x}{3x}} = \frac{1}{3}$
+2. $\lim\limits_{x \to 0}{\dfrac{arctg{5x}-\arcsin{4x}}{e^{3x}-1}} = \lim\limits_{x \to 0}{\dfrac{5x-4x}{3x}} = \dfrac{1}{3}$
 
 3. Правило Лопиталя:
     >Пусть $f$ и $g$ обладают свойствами:
     >+ $f$ и $g$ определены и дифференцируемы в окрестности точки а
     >+ $\lim\limits_{x \to a}{f(x)} = \lim\limits_{x \to a}{g(x)} = 0$
     >+ $g'(x) \neq 0$ при $x \neq a$
-    >+ существует предел $\lim\limits_{x \to a}{\frac{f'(x)}{g'(x)}}$
+    >+ существует предел $\lim\limits_{x \to a}{\dfrac{f'(x)}{g'(x)}}$
     >
-    >Тогда существует предел $\lim\limits_{x \to a}{\frac{f(x)}{g(x)}}$, причем $\lim\limits_{x \to a}{\frac{f(x)}{g(x)}} = \lim\limits_{x \to a}{\frac{f'(x)}{g'(x)}}$
+    >Тогда существует предел $\lim\limits_{x \to a}{\dfrac{f(x)}{g(x)}}$, причем $\lim\limits_{x \to a}{\dfrac{f(x)}{g(x)}} = \lim\limits_{x \to a}{\dfrac{f'(x)}{g'(x)}}$
 
     >### *Доказательство:*
     >
@@ -112,20 +112,20 @@
     >+ $g'(x) \neq 0$ при $x \in (a; x_n)$
     >
     >Значит по теореме Коши существует точка $\epsilon_n$, такая что
-    >+ $\frac{\tilde{f}(x_n) - \tilde{f}(a)}{\tilde{g}(x_n) - \tilde{g}(a)} = \frac{f'(\epsilon_n)}{g'(\epsilon_n)}$
+    >+ $\dfrac{\tilde{f}(x_n) - \tilde{f}(a)}{\tilde{g}(x_n) - \tilde{g}(a)} = \dfrac{f'(\epsilon_n)}{g'(\epsilon_n)}$
     >
     >Но так как у нас $\tilde{f}(a) = \tilde{g}(a) = 0$, получается:
-    >+ $\frac{\tilde{f}(x_n)}{\tilde{g}(x_n)} = \frac{f'(\epsilon_n)}{g'(\epsilon_n)}, \epsilon_n \in (a; x_n)$
+    >+ $\dfrac{\tilde{f}(x_n)}{\tilde{g}(x_n)} = \dfrac{f'(\epsilon_n)}{g'(\epsilon_n)}, \epsilon_n \in (a; x_n)$
     >
     >Теперь устремим n к бесконечности:
-    >+ $\lim\limits_{n \to \infty}{\frac{f(x_n)}{g(x_n)}} = \lim\limits_{n \to \infty}{\frac{\tilde{f}(x_n)}{\tilde{g}(x_n)}} = \lim\limits_{n \to \infty}{\frac{f'(\epsilon_n)}{g'(\epsilon_n)}} = \lim\limits_{\epsilon \to a}{\frac{f'(\epsilon)}{g'(\epsilon)}} = \lim\limits_{x \to a}{\frac{f'(x)}{g'(x)}}$
+    >+ $\lim\limits_{n \to \infty}{\dfrac{f(x_n)}{g(x_n)}} = \lim\limits_{n \to \infty}{\dfrac{\tilde{f}(x_n)}{\tilde{g}(x_n)}} = \lim\limits_{n \to \infty}{\dfrac{f'(\epsilon_n)}{g'(\epsilon_n)}} = \lim\limits_{\epsilon \to a}{\dfrac{f'(\epsilon)}{g'(\epsilon)}} = \lim\limits_{x \to a}{\dfrac{f'(x)}{g'(x)}}$
     >
     >Как раз это нам и нужно было проверить.
 
 4. Виды неопределённостей:
     >Неопределенности сущесвтуют следующих видов:
-    >+ $\frac{0}{0}$
-    >+ $\frac{\infty}{\infty}$
+    >+ $\dfrac{0}{0}$
+    >+ $\dfrac{\infty}{\infty}$
     >+ $0 * \infty$
     >+ $\infty - \infty$
     >+ $0^0$
@@ -133,7 +133,7 @@
     >+ $\infty^0$
 
 5. Теорема о первом замечательном пределе:
-    >$\lim\limits_{x \to 0}{\frac{\sin(x)}{x}} = 1$
+    >$\lim\limits_{x \to 0}{\dfrac{\sin(x)}{x}} = 1$
     >
     >Это равенство называется *Первым замечательным пределом*
 
@@ -143,5 +143,5 @@
 
 1. Производная от деления:
     >Так как производную никто не запомнил, напишу формулы:
-    >+ $(\frac{1}{u})' = -\frac{u'}{u^2}$
-    >+ $(\frac{u}{v})' = \frac{u'v - v'u}{v^2}$
+    >+ $(\dfrac{1}{u})' = -\dfrac{u'}{u^2}$
+    >+ $(\dfrac{u}{v})' = \dfrac{u'v - v'u}{v^2}$
