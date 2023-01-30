@@ -180,5 +180,4 @@
     >+ 9. $(1+x)^m - 1 \sim mx$
     >+ 10. $\log_a{x} \sim \dfrac{x}{\ln{a}}$
 
-
 ---
