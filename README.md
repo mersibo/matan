@@ -58,7 +58,7 @@
 
 1. $\left(\dfrac{\ln\left(x^{2}-3\,x+1\right)}{arctg\left(3\,x\right)}\right)' = \left(\dfrac{(\ln(x^2-3x+1))' * arctg{3x} - (arctg{3x})'* \ln(x^2-3x+1)}{arctg^2{3x}}\right) = \left(\dfrac{\frac{(arctg{3x})}{x^2-3x+1} *(x^2-3x+1)' -\frac{\ln(x^2-3x+1)}{9x^2 + 1} * (3x)'}{arctg^2{3x}}\right) = \left(\dfrac{2x-3}{(x^2-3x+1)arctg{3x}} - \dfrac{3\ln(x^2-3x+1)}{(9x^2)arctg^2{3x}}\right)$
 
-2. $\lim\limits_{x \to 0}{e^{1+\dfrac{1}{5x+3}}} = e^1=e$
+2. $\lim\limits_{x \to \infty}{e^{1+\dfrac{1}{5x+3}}} = e^1=e$
 
 3. Теорема Лагранжа:
     >Пусть $f$ определена на отрезке $[a;b]$, причем:
@@ -166,7 +166,7 @@
     >Доказательство эквивалентности $cos(x) \sim 1 - \dfrac{x^2}{2}$:
     >+ $\cos(x) \sim 1 - \dfrac{x^2}{2} = 1 - \cos(x) \sim \dfrac{x^2}{2}$ 
     >+ Для доказательства воспользуемся формулой: $1 - \cos(x) = 2\sin^2{\frac{x}{2}}$
-    >+ $\lim\limits_{x \to 0}{\dfrac{1-\cos(x)}{\frac{x^2}{2}}} = \lim\limits_{x \to 0}{\dfrac{2\sin^2{\frac{x}{2}}}{2(\frac{x}{2})^2}} = \lim\limits_{x \to 0}{\dfrac{\sin{\frac{x}{2}}}{\frac{x}{2}}*\dfrac{\sin{\frac{x}{2}}}{\frac{x}{2}}} = 1*1 = 1$ 
+    >+ $\lim\limits_{x \to 0}{\dfrac{1-\cos(x)}{\frac{x^2}{2}}} = \lim\limits_{x \to 0}{\dfrac{2\sin^2{\frac{x}{2}}}{2(\frac{x}{2})^2}} = \lim\limits_{x \to 0}{\dfrac{\sin{\frac{x}{2}}}{\frac{x}{2}} * \dfrac{\sin{\frac{x}{2}}}{\frac{x}{2}}} = 1*1 = 1$ 
     >
     >Таблица эквивалентностей:
     >+ 1. $\sin(x) \sim x$
