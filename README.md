@@ -153,8 +153,8 @@
 
 1. Производная от деления:
     >Так как производную никто не запомнил, напишу формулы:
-    >+ $(\ddfrac{1}{u})' = -\ddfrac{u'}{u^2}$
-    >+ $(\ddfrac{u}{v})' = \ddfrac{u'v - v'u}{v^2}$
+    >+ $(\dfrac{1}{u})' = -\dfrac{u'}{u^2}$
+    >+ $(\dfrac{u}{v})' = \dfrac{u'v - v'u}{v^2}$
     
 2. $\lim\limits_{x \to \infty}{\sqrt{x^2+x} - \sqrt{x^2-x}} = \lim\limits_{x \to \infty}{\dfrac{(\sqrt{x^2+x} - \sqrt{x^2-x})(\sqrt{x^2+x} + \sqrt{x^2-x})}{\sqrt{x^2+x} + \sqrt{x^2-x}}} = \lim\limits_{x \to \infty}{\dfrac{2x}{\sqrt{x^2+x} + \sqrt{x^2-x}}} = \lim\limits_{x \to \infty}{\dfrac{2}{\sqrt{1}+\sqrt{1}}} = \dfrac{2}{2} = 1$
 
@@ -171,7 +171,7 @@
     >Таблица эквивалентностей:
     >+ 1. $\sin(x) \sim x$
     >+ 2. $\arcsin(x) \sim x$
-    >+ 3. $\tg(x) \sim x$
+    >+ 3. $tg(x) \sim x$
     >+ 4. $arctg(x) \sim x$
     >+ 5. $\ln(1+x) \sim x$
     >+ 6. $e^x - 1 \sim x$
