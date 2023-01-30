@@ -217,5 +217,10 @@
     > $(a+b)^n = \displaystyle\sum_{k=0}^{n} \binom{k}{n} * a^{n-k} * b^k$
 5. Число Непера $e$
     > $e = \lim\limits_{x \to \infty}{(1 + \dfrac{1}{x})^x}$
+6. Полезная формула для *квадратных* корней
+    > $\sqrt{a} - \sqrt{b} = \dfrac{a-b}{\sqrt{a} + \sqrt{b}}$
+7. Полезная формула для *кубических* корней
+    > $\sqrt[3]{a} \pm \sqrt[3]{b} = \dfrac{a \pm b}{a^{\frac{2}{3}} \mp (ab)^{\frac{1}{3}} + b^2}$
+
 
 
