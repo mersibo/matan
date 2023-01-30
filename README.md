@@ -213,4 +213,9 @@
     > $\lim\limits_{x \to 0}{(1 + x)^{\frac{1}{x}}} = \lim\limits_{x \to \infty}{(1 + \dfrac{1}{x})^x} = e$
 3. Неравенство Бернулли
     > $(1 + x)^n \geq 1 + nx$
+4. Формула бинома Ньютона
+    > $(a+b)^n = \displaystyle\sum_{k=0}^{n} \binom{k}{n} * a^{n-k} * b^k$
+5. Число Непера $e$
+    > $e = \lim\limits_{x \to \infty}{(1 + \dfrac{1}{x})^x}$
+
 
